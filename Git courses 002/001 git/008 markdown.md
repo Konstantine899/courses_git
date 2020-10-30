@@ -16,6 +16,10 @@
 
 Some **text**, _italic_, ~~text~~,
 
+```md
+**text**, _italic_, ~~text~~,
+```
+
 ## Links
 
 1. https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
@@ -78,11 +82,30 @@ Some **text**, _italic_, ~~text~~,
 2. List item 2
 3. List item 3
 
+```md
+- List item 1
+  - list item 1.1
+    ![My image](https://unsplash.it/200/200)
+- List item 2
+- List item 3
+- List item 4
+
+<br>
+
+1. List item 1
+2. List item 2
+3. List item 3
+```
+
 <br>
 
 ## Lines
 
 ---
+
+```md
+--- три тере это горизонтальная линия
+```
 
 > Some text Для ответки важных частей документации.
 
@@ -124,9 +147,21 @@ const a = 1;
 | /src | some comments |
 | /src | some comments |
 
+```md
+| Dir  |    Comment    |
+| :--: | :-----------: |
+| /src | some comments |
+| /src | some comments |
+```
+
 Двоеточия используются для выравнивания текста. Два двоеточия это по цетру, по одному слева или справа соответсвенно выравнивание происходит по левому краю или по правому.
 
 ## TODO
 
 - [x] Learn Java Script
-- [] Learn React
+- [ ] Learn React
+
+```md
+- [x] Learn Java Script
+- [ ] Learn React
+```
