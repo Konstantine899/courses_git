@@ -1,4 +1,4 @@
-# Marckdown
+# Markdown
 
 [Перейди что бы почитать про синтаксис подробнее](https://www.markdownguide.org/basic-syntax/)
 
